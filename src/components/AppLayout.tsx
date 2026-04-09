@@ -76,6 +76,11 @@ const AppLayout = ({ children }: AppLayoutProps) => {
             </div>
             <span className="font-display text-lg font-bold text-foreground">NEXUS</span>
           </div>
+          <a href="/auth">
+  <button className="bg-blue-500 px-3 py-1 rounded text-white text-sm">
+    Sign In
+  </button>
+</a>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="p-2 text-muted-foreground hover:text-foreground"
