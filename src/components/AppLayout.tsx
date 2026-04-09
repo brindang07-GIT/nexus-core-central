@@ -68,7 +68,7 @@ const AppLayout = ({ children }: AppLayoutProps) => {
       </aside>
 
       {/* Mobile Header */}
-      <header className="lg:hidden fixed top-0 left-0 right-0 z-50 glass border-b border-border/30">
+      <header className="fixed top-0 left-0 right-0 z-50 glass border-b border-border/30">
         <div className="flex items-center justify-between px-4 py-3">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
